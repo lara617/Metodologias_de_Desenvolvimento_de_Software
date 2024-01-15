@@ -1,0 +1,12 @@
+
+
+
+
+h5{
+    font-weight: normal;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    transition: color 0.1s ease-in-out;
+}
