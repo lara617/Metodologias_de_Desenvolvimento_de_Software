@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <title> (SCV):</title>
 </head>
 
 <body>
     <h1>Sistemas de Controle de Versões (SCV)</h1>
-    Os SCV são ferramentas que rastreiam as alterações feitas no código-fonte ao longo do tempo.<br> Eles permitem que
-    várias pessoas trabalhem em um projeto simultaneamente e mantenham um histórico das modificações feitas.
+    <h3>Os SCV são ferramentas que rastreiam as alterações feitas no código-fonte ao longo do tempo.<br> Eles permitem que
+    várias pessoas trabalhem em um projeto simultaneamente e mantenham um histórico das modificações feitas.</h3>
 
     <div style="height: 20px;"></div>
-    <img src="/Img/1677608142895.png" width="600">
+    <img src="Img\Captura de ecrã 2024-01-16 090414.png" width="600" alt="Sua Imagem" class="imagem-interativa">
+    
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao1')">Tipos de SCV </button>
-    <div id="informacao1" class="hidden">
+    <button onclick="toggleVisibility('informacao1')" class="meu-botao">Tipos de SCV </button>
+    <div id="informacao1" class="hidden conteudo-nuvem">
 
         <h4>Centralizado</h4>
         <h5>O CVS (Concurrent Versions System) e Subversion (SVN), são alguns exemplos. <br>Nesse modelo, há um
@@ -36,8 +33,8 @@
 
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao2')">Principais Conceitos</button>
-    <div id="informacao2" class="hidden">
+    <button onclick="toggleVisibility('informacao2')" class="meu-botao">Principais Conceitos</button>
+    <div id="informacao2" class="hidden conteudo-nuvem">
 
         <li><h4>Commit:</h4></li> <h5>Uma alteração no código que é registrada no repositório.</h5>
         <li><h4>Branch:</h4></li> <h5>Uma ramificação separada do código, permite o desenvolvimento de recursos ou correções de bugs
@@ -49,8 +46,8 @@
 
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao3')">Vantagens dos SCV</button>
-    <div id="informacao3" class="hidden">
+    <button onclick="toggleVisibility('informacao3')" class="meu-botao">Vantagens dos SCV</button>
+    <div id="informacao3" class="hidden conteudo-nuvem">
 
         <li>
             <h4>Controle de Versão:</h4>
@@ -68,8 +65,8 @@
 
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao4')">Desvantagens dos SCV</button>
-    <div id="informacao4" class="hidden">
+    <button onclick="toggleVisibility('informacao4')" class="meu-botao">Desvantagens dos SCV</button>
+    <div id="informacao4" class="hidden conteudo-nuvem">
 
         <li><h4>Complexidade Inicial:</h4></li><h5>Aprender a usar um SCV pode ser desafiador para iniciantes, especialmente em ambientes distribuídos como o Git. A curva de aprendizado pode ser íngreme para aqueles que não estão familiarizados com os conceitos subjacentes.</h5>
         <li><h4>Espaço de Armazenamento:</h4></li><h5>Sistemas distribuídos, como o Git, podem ocupar mais espaço de armazenamento localmente devido à cópia completa do histórico do repositório em cada máquina. Isso pode ser uma consideração em projetos grandes com muitas versões e arquivos.</h5>
@@ -81,8 +78,8 @@
 
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao5')">Ferramentas Populares</button>
-    <div id="informacao5" class="hidden">
+    <button onclick="toggleVisibility('informacao5')" class="meu-botao">Ferramentas Populares</button>
+    <div id="informacao5" class="hidden conteudo-nuvem">
         <h4>GitHub</h4>
         <h5>Tipo: Distribuído
             GitHub é uma plataforma baseada em nuvem que utiliza o sistema de controle de versões Git.<br> Ele é
@@ -119,20 +116,29 @@
     </div>
 
     <div style="height: 20px;"></div>
+    <button onclick="toggleVisibility('informacao6')" class="meu-botao"> Melhores Práticas</button>
+    <div id="informacao6" class="hidden conteudo-nuvem">
 
-    <button onclick="toggleVisibility('informacao6')">Conclusão</button>
-    <div id="informacao6" class="hidden">
+<h4>Mensagens de Commit Descritivas: </h4><h5>Fornecer mensagens claras e descritivas ao fazer commits para entender as alterações realizadas.</h5>
+<h4>Uso Adequado de Branches:</h4> <h5>Gerenciar eficientemente branches para desenvolvimento de recursos, correções de bugs e versões estáveis.</h5>
+</div> 
+<div style="height: 20px;"></div>
+
+    <button onclick="toggleVisibility('informacao7')" class="meu-botao">Conclusão</button>
+    <div id="informacao7" class="hidden conteudo-nuvem">
 
         <h5>Os Sistemas de Controle de Versões (SCV) são fundamentais para o desenvolvimento de software, permitindo rastrear alterações, facilitar a colaboração entre desenvolvedores 
         e manter a estabilidade do código. A transição para modelos distribuídos, exemplificados por ferramentas como Git, destacou a importância da flexibilidade no ambiente de 
         desenvolvimento. Com práticas sólidas e ferramentas populares, os SCV desempenham um papel crucial na entrega eficiente e de alta qualidade de projetos de software.
     </h5></div>
 
-
     <div style="height: 20px;"></div>
 
-    <button onclick="toggleVisibility('informacao7')">Referências</button>
-    <div id="informacao7" class="hidden">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8MsYOAnU1eY?si=ZPxHnX_6WbDDaHO5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>   
+    <button onclick="toggleVisibility('informacao8')" class="meu-botao">Referências</button>
+    <div id="informacao8" class="hidden conteudo-nuvem">
 <a href="https://catalogo.anqep.gov.pt/ufcdDetalhe/17533"> Catálogo Nacional de Qualificações</a><br>
  <a href="https://chat.openai.com/share/76e4da40-00f5-4d0e-af7a-064e2395f902"> Chat GPT</a><br> <a href="https://chat.openai.com/share/264264e8-108b-4ef0-a9c8-b28fe6b4d53f">Chat GPT</a>
 <br><h4>Realizado por:</h4>
