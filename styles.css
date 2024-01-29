@@ -1,12 +1,27 @@
 
 
-h5, h3 {
+h5 {
 color: aliceblue;
+font-size: 25px;
 }
     
-    
-h1 , h4 {
+h2{
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 35px;
+    }
+
+h1 {
     color: #2d8cf8; 
+    font-size: 40px;
+}
+
+h4 {
+    color: #2d8cf8; 
+    font-size: 30px;
 }
 
 body {
@@ -35,6 +50,7 @@ body {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
+    font-size: 30px;
     background-color: #2471ee; 
     color: #f3f3f3; 
     border: none;
